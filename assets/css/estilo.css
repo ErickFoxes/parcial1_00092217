@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-image: url('../img/concierto.jpg');
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+header h1{
+    font-size: 5em;
+    padding: 2em 0 0.5em 0;
+    color:#fff;
+}
+header p{
+    font-size: 1em;
+    padding: 2em;
+    color:#fff;
+}
+header a i{
+    font-size: 1em;
+    padding: 1em;
+    color:#fff;
+}
+img{
+    width: 100px;
+}
+nav{
+    background: #000;
+    width: 100%;
+    height: 56px;
+    position: fixed;
+}
+nav li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.img-navbar-logo{
+    width: 50px;
+}
+.container-flex-index{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.item-flex-1{
+    flex:1;
+}
+.item-flex-2{
+    flex:1;
+}
+.item-flex-3{
+    flex:1;
+}
+.item-flex-4{
+    flex:1;
+}
+.item-flex-5{
+    flex:1;
+}
+.container-grid-index{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	;
+}
+.grid-item-1{
+    grid-column-start: 1/2;
+}
+.grid-item-2{
+    grid-column-start: 2/3;
+}
+.grid-item-3{
+    grid-column-start: 3/4;
+}
+.grid-item-4{
+    grid-column-start: 1;
+}
+.grid-item-5{
+    grid-column-start: 2;
+}
+.grid-item-6{
+    grid-column-start: 3;
+}
